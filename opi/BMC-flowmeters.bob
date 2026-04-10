@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!--Saved on 2026-01-27 16:25:32 by konrad-->
+<!--Saved on 2026-04-09 10:16:10 by konrad-->
 <display version="2.0.0">
   <name>BMC-flowmeters</name>
   <width>2210</width>
@@ -45,9 +45,9 @@
   <widget type="embedded" version="2.0.0">
     <name>Embedded Display</name>
     <macros>
-      <D>MF-BMC</D>
+      <D>CO2</D>
       <P>Env-Gas:</P>
-      <URL>192.168.10.224</URL>
+      <URL>172.16.140.2/ip_en.html</URL>
     </macros>
     <file>helper-opi-files/siargo-flowmeter.bob</file>
     <y>60</y>
@@ -59,9 +59,9 @@
     <macros>
       <D>Gasol</D>
       <P>Env-Gas:</P>
-      <URL>192.168.10.248/ip_en.html</URL>
+      <URL>172.16.140.11/ip_en.html</URL>
     </macros>
-    <file>helper-opi-files/bronkhorst-flowmeter.bob</file>
+    <file>helper-opi-files/epi8600-flowmeter.bob</file>
     <y>870</y>
     <width>730</width>
     <height>280</height>
@@ -120,11 +120,11 @@
   <widget type="embedded" version="2.0.0">
     <name>Embedded Display_6</name>
     <macros>
-      <D>MF-BMC</D>
+      <D>C2H2</D>
       <P>Env-Gas:</P>
-      <URL>192.168.10.224</URL>
+      <URL>172.16.140.9/ip_en.html</URL>
     </macros>
-    <file>helper-opi-files/siargo-flowmeter.bob</file>
+    <file>helper-opi-files/bronkhorst-flowmeter.bob</file>
     <x>1460</x>
     <y>330</y>
     <width>730</width>
@@ -158,9 +158,9 @@
   <widget type="embedded" version="2.0.0">
     <name>Embedded Display_9</name>
     <macros>
-      <D>MF-BMC</D>
+      <D>xC2H2</D>
       <P>Env-Gas:</P>
-      <URL>192.168.10.224</URL>
+      <URL>172.16.140.10/ip_en.html</URL>
     </macros>
     <file>helper-opi-files/bronkhorst-flowmeter.bob</file>
     <x>1460</x>
@@ -171,9 +171,9 @@
   <widget type="embedded" version="2.0.0">
     <name>Embedded Display_10</name>
     <macros>
-      <D>Gasol</D>
+      <D>H2</D>
       <P>Env-Gas:</P>
-      <URL>192.168.10.248/ip_en.html</URL>
+      <URL>172.16.140.12/ip_en.html</URL>
     </macros>
     <file>helper-opi-files/epi8600-flowmeter.bob</file>
     <x>730</x>
